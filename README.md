@@ -1,5 +1,14 @@
 # React + Vite
 
+Netlify: [View]()
+
+Asosiy: Reactjs
+
+
+
+
+![Ecommer-site](https://github.com/bekzodxudaybergenow/ecommers-site/blob/master/public/ecommer-1.png)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
