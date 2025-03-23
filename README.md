@@ -1,6 +1,6 @@
 # React + Vite
 
-Netlify: [View]()
+Vercel: [View](https://ecommers-site-blond.vercel.app/)
 
 Asosiy: Reactjs
 
