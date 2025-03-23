@@ -66,11 +66,11 @@ function Products() {
                 })
               }
             </div>
-            <div className="flex justify-center flex-wrap mt-10 gap-x-2">
+            <div className="flex justify-center flex-wrap mt-10 gap-3">
               {
                 pages.map((page) => {
                   return (
-                    <span key={page} className={`flex items-center justify-center max-w-[40px] w-[100%] px-4 py-2 cursor-pointer hover:bg-[#873EFF] hover:text-white duration-[.3s] box-s shadow-[0_0_4px_2px_rgba(0,0,0,.1)] rounded-md ${skip == page && 'bg-[#873EFF] text-white'}`} onClick={() => {setSkip(page)}}>{page}</span> 
+                    <span key={page} className={`flex items-center justify-center  max-w-[40px] w-[100%] px-4 py-2 cursor-pointer hover:bg-[#873EFF] hover:text-white duration-[.3s] box-s shadow-[0_0_4px_2px_rgba(0,0,0,.1)] rounded-md ${skip == page && 'bg-[#873EFF] text-white'}`} onClick={() => {setSkip(page)}}>{page}</span> 
                   )
                 })
               }
